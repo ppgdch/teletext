@@ -14,18 +14,109 @@
 
 .imgdue {
 	
-	max-width: 600px;
+	max-width: 500px;
 	height: auto;
     display:block;
     margin:auto;
+    position:absolute;
+	top: 90%;
+	left: 33%;
 }
 
 .imgdue:hover {
 	-webkit-transform: scale(1.2);
         -ms-transform: scale(1.2);
         transform: scale(1.2);
+}
 
+.imgtre {
+	
+	max-width: 500px;
+	height: auto;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    position:absolute;
+	top: 190%;
+	left: 33%;
+}
 
+.imgtre:hover {
+	-webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+}
+
+.imgquattro {
+	
+	max-width: 500px;
+	height: auto;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    position:absolute;
+	top: 295%;
+	left: 33%;
+}
+
+.imgquattro:hover {
+	-webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+}
+
+.imgcinque {
+	
+	max-width: 500px;
+	height: auto;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    position:absolute;
+	top: 398%;
+	left: 33%;
+}
+
+.imgcinque:hover {
+	-webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+}
+
+.imgsei {
+	
+	max-width: 500px;
+	height: auto;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    position:absolute;
+	top: 498%;
+	left: 33%;
+}
+
+.imgsei:hover {
+	-webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+}
+
+.imgsette {
+	
+	max-width: 500px;
+	height: auto;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    position:absolute;
+	top: 600%;
+	left: 33%;
+}
+
+.imgsette:hover {
+	-webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
 }
 
 iframe { 
@@ -42,13 +133,13 @@ body, html {
 }
 
 p {
-	font-family: 'Noto Sans JP', bold;
+	font-family: 'Noto Sans JP', black;
 	margin-left: auto;
     margin-right: auto;
-    max-width: 1000px;
-    font-size: 20px;    
+    max-width: 1500px;
+    height: auto;
+    font-size: 30px;    
 }
-
 
 h1 { 
 
@@ -57,6 +148,7 @@ h1 {
 	text-align: center;
 	margin: 0;
  }
+
 
 .wrapper {
 	display: block;
@@ -103,5 +195,5 @@ h1 {
 }
 
 .sette {
-	background: rgb(0,255,0);
+	background: white;
 }
