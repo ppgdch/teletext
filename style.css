@@ -55,7 +55,7 @@
     margin-left:auto;
     margin-right:auto;
     position:absolute;
-	top: 295%;
+	top: 290%;
 	left: 33%;
 }
 
@@ -73,7 +73,7 @@
     margin-left:auto;
     margin-right:auto;
     position:absolute;
-	top: 398%;
+	top: 390%;
 	left: 33%;
 }
 
@@ -91,7 +91,7 @@
     margin-left:auto;
     margin-right:auto;
     position:absolute;
-	top: 498%;
+	top: 490%;
 	left: 33%;
 }
 
@@ -109,7 +109,7 @@
     margin-left:auto;
     margin-right:auto;
     position:absolute;
-	top: 600%;
+	top: 590%;
 	left: 33%;
 }
 
@@ -122,7 +122,7 @@
 iframe { 
 
 width: 1500px;
-height: 600px;
+height: 500px;
 display:block;
 margin:auto;
  }
@@ -138,7 +138,7 @@ p {
     margin-right: auto;
     max-width: 1500px;
     height: auto;
-    font-size: 30px;    
+    font-size: 40px;    
 }
 
 h1 { 
