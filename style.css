@@ -1,88 +1,8 @@
-:root {
-  --colorShadeA: rgb(0, 0, 0);
-  --colorShadeB: rgb(0,0,0);
-  --colorShadeC: rgb(0,255,255);
-  --colorShadeD: rgb(255,20,180);
-  --colorShadeE: rgb(0,255,255);
-}
-
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
-* {
-  box-sizing: border-box;
-}
-*::before, *::after {
-  box-sizing: border-box;
-}
-
-button {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-  outline: none;
-  border: 0;
-  vertical-align: middle;
-  text-decoration: none;
-  font-size: 1.5rem;
-    color:var(--colorShadeA);
-  font-weight: 700;
-  text-transform: uppercase;
-  font-family: 'Noto Sans JP', black;
-  display: flex;
-          align-items: center;
-          justify-content: center;
-}
-
-button.big-button {
-   padding: 1em 2em;
-   border: 2px solid var(--colorShadeA);
-  border-radius: 1em;
-  background: var(--colorShadeE);
-transform-style: preserve-3d;
-   transition: all 175ms cubic-bezier(0, 0, 1, 1);
-}
-button.big-button::before {
-  position: absolute;
-  content: '';
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: var(--colorShadeC);
-  border-radius: inherit;
-    box-shadow: 0 0 0 2px var(--colorShadeB), 0 0.75em 0 0 var(--colorShadeA);
- transform: translate3d(0, 0.75em, -1em);
-     transition: all 175ms cubic-bezier(0, 0, 1, 1);
-}
-
-
-button.big-button:hover {
-  background: var(--colorShadeD);
-  transform: translate(0, 0.375em);
-}
-
-button.big-button:hover::before {
-  transform: translate3d(0, 0.75em, -1em);
-}
-
-button.big-button:active {
-            transform: translate(0em, 0.75em);
-}
-
-button.big-button:active::before {
-  transform: translate3d(0, 0, -1em);
-  
-      box-shadow: 0 0 0 2px var(--colorShadeB), 0 0.25em 0 0 var(--colorShadeB);
-
-}
-
 .imguno {
-	
 	max-width: 1000px;
-	height: auto;
-    display:block;
-    margin:auto;
+	display: block;
+  right: 50%;
+  left: 50%;
 }
 
 .imguno:hover {
@@ -90,15 +10,15 @@ button.big-button:active::before {
 	transition: 30s;
 }
 
+/*
 .imgdue {
-	
-	max-width: 500px;
-	height: auto;
-    display:block;
-    margin:auto;
-    position:absolute;
-	top: 90%;
-	left: 33%;
+	 max-width: 500px;
+	 height: auto;
+   display:block;
+   margin:auto;
+   position:absolute;
+	 top: 90%;
+	 left: 33%;
 }
 
 .imgdue:hover {
@@ -196,7 +116,7 @@ button.big-button:active::before {
         -ms-transform: scale(1.2);
         transform: scale(1.2);
 }
-
+*/
 iframe { 
 
 width: 1500px;
@@ -212,21 +132,33 @@ body, html {
 }
 
 p {
-	font-family: 'Noto Sans JP', black;
-	margin-left: auto;
+	   font-family: 'Noto Sans JP', black;
+	   margin-left: auto;
     margin-right: auto;
     max-width: 1500px;
     height: auto;
-    font-size: 2vw;    
+    font-size: 2vw; 
 }
 
-h1 { 
+.finale {
+     font-family: 'Noto Sans JP', black;
+     margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+    height: auto;
+    font-size: 1vw; 
+    line-height: 120%;
+}
 
+
+h1 { 
 	font-family: 'Noto Sans JP', bold;
 	font-size: 5vw;
 	text-align: center;
 	margin: 0;
  }
+
+
 
 .wrapper {
 	display: block;
